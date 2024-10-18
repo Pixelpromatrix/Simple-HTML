@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1</title>
+
+    <!-- <link rel="stylesheet" href="script.css"> -->
+</head>
+<body>
+
+    <h1>HTML Challenge</h1>
+    
+    <p><strong>HTML (Hypertext Markup Language):</strong><br><br>
+    It is standard language used to create and design web pages on internet</p>
+    
+    <div>
+        <p>1. HTML is an?</p>
+        <ol type="i">
+            <li>Markup Language</li>
+            <li>Programming Language</li>
+            <li>None of these</li>
+        </ol>
+        <p>Ans: ___________</p>
+    </div>
+    <br><br>
+    
+    <div>
+        <p>2. CSS is used for</p>
+        <ol type="i">
+            <li>Styling</li>
+            <li>Scripting</li>
+            <li>None of these</li>
+        </ol>
+        <p>Ans: ___________</p>
+    </div>
+    <br><br>
+    
+    <h2>TIME TABLE</h2>
+    <table border="1" cellspacing="0" cellpadding="10" width="50%" height="400px" class="table">
+        <tr>
+            <th align="center">Day/Period</th>
+            <th align="center">I</th>
+            <th align="center">II</th>
+            <th align="center"></th>
+            <th align="center">III</th>
+            <th align="center">IV</th>
+        </tr>
+        <tr>
+            <td align="center">Monday</td>
+            <td align="center">Eng</td>
+            <td align="center">Math</td>
+            <td align="center" rowspan="5">LUNCH</td>
+            <td align="center">EVS</td>
+            <td align="center">LAB</td>
+        </tr>
+        <tr>
+            <td align="center">Tuesday</td>
+            <td align="center">Eng</td>
+            <td align="center">Math</td>
+            <td align="center">EVS</td>
+            <td align="center">Hindi</td>
+        </tr>
+        <tr>
+            <td align="center">Wednesday</td>
+            <td align="center" colspan="2">LAB</td>
+            <td align="center">EVS</td>
+            <td align="center">Hindi</td>
+        </tr>
+        <tr>
+            <td align="center">Thursday</td>
+            <td align="center">Eng</td>
+            <td align="center">Math</td>
+            <td align="center">EVS</td>
+            <td align="center">Hindi</td>
+        </tr>
+        <tr>
+            <td align="center">Friday</td>
+            <td align="center" colspan="2">SEMINAR</td>
+            <td align="center" colspan="2">Sports</td>
+        </tr>
+        <tr>
+            <td align="left" colspan="6">School Timing:</strong> 10:00am to 4:00pm</td>
+        </tr>
+    </table>
+
+<br><br>
+
+    <h1>Create Form Challenge:</h1><br>
+    <p>Please share your personal details here:</p><br>
+    
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend><br>
+            <label for="first-name">First name</label>
+            <input value="Aryan" type="text" id="first-name" name="first-name" required> <br><br>
+            
+            <label for="last-name">Last name</label>
+            <input value="Srivastava" type="text" id="last-name" name="last-name" required><br><br>
+            
+            <label for="birthday">Birthday</label>
+            <input type="date" id="birthday" name="birthday" required>
+        </fieldset> <br><br>
+        
+        <p>Can you tell us a little more?</p> <br>
+        
+        <fieldset>
+            <legend>Further Information</legend><br>
+            <label for="favorite-color">Favorite Color:</label>
+            <input type="color" id="favorite-color" name="favorite-color"><br><br>
+            
+            <label for="favorite-pet">What's your favorite pet?</label>
+            <input value="Dog" type="text" id="favorite-pet" name="favorite-pet"><br><br>
+            
+            <p>Do you like:</p>
+            <label>
+                <input type="radio" name="choice" value="mountains" checked> Mountains
+            </label>
+            <label>
+                <input type="radio" name="choice" value="beaches" > Beaches 
+            </label> 
+        </fieldset><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+    
+
+    
+</body>
+</html>
